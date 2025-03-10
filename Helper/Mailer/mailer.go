@@ -16,9 +16,9 @@ var privateAPIKey string = "{API_KEY}" //
 
 func SendAccountConfirmation(code string, email string) {
 	// Create an instance of the Mailgun Client
-	mg := mailgun.NewMailgun("mg.formulas.tech", privateAPIKey)
+	mg := mailgun.NewMailgun("mg.domian.com", privateAPIKey)
 
-	sender := "admin@formulas.com"
+	sender := "admin@domain.com"
 	subject := "Do not Reply - Account Confirmation"
 	body := "This is about the account confirmation on formulas the code for activation is " + code + " . ONLY VALID FOR 10 MIN."
 	recipient := email
