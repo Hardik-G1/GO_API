@@ -1,4 +1,4 @@
-# Mathematical Formulas API
+# Formulas API
 
 A powerful API for storing, sharing, and collaborating on mathematical formulas with features similar to a code repository system.
 
